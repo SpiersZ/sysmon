@@ -1,0 +1,6 @@
+*/10 10-22 * * * ntpdate 69.64.56.215 & /sbin/hwclock -w
+*/10 10-22 * * * ntpdate 69.64.56.217 & /sbin/hwclock -w
+*/20 19 * * * php /data/bin/test/abcd.php aaa
+*/20 19 * * * php /data/bin/test/abc.php aaa
+*/20 19 * * * php /data/bin/test/ab.php aaa
+#test
